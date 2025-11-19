@@ -1,1 +1,1 @@
-
+Este site foi criado a fim de atender o senso artísitico, o conforto e a escolha dos nossos clientes. Nossa loja é focada 100% na qualidade do produto e ouvimos todos os feedbacks solicitados por vocês. Com nossos produtos, vão perceber que conforto nunca é demais!
