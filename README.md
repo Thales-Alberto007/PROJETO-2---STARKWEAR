@@ -8,7 +8,6 @@ Nosso site foi criado a partir de uma ideia recorrente devido a um primeiro proj
 Pedro Henrique de Araújo Nunes
 Thales Alberto
 Antonio Carvalho Pimentel Neto
-
-
-
+Victor Gabriel Mesquita Muniz Farias
+Anderson Victor Santana de Souza
 
