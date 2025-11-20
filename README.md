@@ -3,3 +3,12 @@ Nosso site foi criado a partir de uma ideia recorrente devido a um primeiro proj
 
 
 
+
+      Grupo formado por: 
+Pedro Henrique de Araújo Nunes
+Thales Alberto
+Antonio Carvalho Pimentel Neto
+
+
+
+
