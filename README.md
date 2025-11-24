@@ -13,7 +13,7 @@ Divisão do trabalho:
 
 - Front-end (Pedro)
 
-- Back-end 1 () Variáveis a serem utilizadas na lógica de programação:
+- Back-end 1 (Anderson Victor Santana de Souza) Variáveis a serem utilizadas na lógica de programação:
 
 Tabela / Variáveis:
 
@@ -27,7 +27,7 @@ CRUD Clientes (já existe)
 
 CRUD Reviews (novo)
 
-- Back-end 2 () Variáveis a serem utilizadas na lógica de programação: 
+- Back-end 2 (Antonio Carvalho Pimentel Neto) Variáveis a serem utilizadas na lógica de programação: 
 
 Tabela / Variáveis:
 
@@ -37,7 +37,7 @@ CRUDs:
 
 CRUD Produtos (já existe)
 
-- Back-end 3 () Variáveis a serem utilizadas na lógica de programação:
+- Back-end 3 (Victor Gabriel Mesquita Muniz Farias) Variáveis a serem utilizadas na lógica de programação:
 
 Tabela / Variáveis:
 
