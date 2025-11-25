@@ -7,36 +7,53 @@
     $resultado = mysqli_query($conexao, $sql);
 
     echo "<div style='
-            font-family: Arial;
-            padding: 20px;
-            margin: 40px auto;
-            width: 350px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 25px;
+            margin: 60px auto;
+            width: 380px;
             text-align: center;
-            background: #f4f4f4;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            background: #ffffffd9;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+            backdrop-filter: blur(4px);
+            background-image: linear-gradient(to bottom, #87d8ff, #ffe9b3);
+        '>";
+
+    echo "<div style='
+            background: #ffffffcc;
+            padding: 12px 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+            display: inline-block;
         '>";
 
     if($resultado){
-        echo "<h2>Registro excluído com sucesso!</h2>";
+        echo "<h2 style='color:#003b5c; margin:0;'>Registro excluído com sucesso!</h2>";
     }else{
-        echo "<h2>Erro ao excluir registro!</h2>";
+        echo "<h2 style='color:#003b5c; margin:0;'>Erro ao excluir registro!</h2>";
     }
+
+    echo "</div>";
 
     // Botão de voltar
     echo "
-        <br>
+        <br><br>
         <a href='?pg=clientes-admin' 
         style='
             display: inline-block;
-            padding: 10px 15px;
-            background: black;
-            color: white;
+            padding: 10px 18px;
+            background: #ffd37c;
+            color: #5a3d0c;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.30);
             font-size: 16px;
-            margin-top: 10px;
-        '>Voltar</a>
+            font-weight: bold;
+            transition: 0.2s;
+        '
+        onmouseover=\"this.style.background='#ffca5c'\"
+        onmouseout=\"this.style.background='#ffd37c'\"
+        >Voltar</a>
     ";
 
     echo "</div>";
