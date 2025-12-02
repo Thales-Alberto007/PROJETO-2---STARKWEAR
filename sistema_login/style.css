@@ -1,0 +1,106 @@
+/* ======== ESTILO GERAL ======== */
+body {
+    background: #f0f2f5;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* ======== CONTAINER ======== */
+.container {
+    background: white;
+    width: 380px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+/* ======== TÍTULO ======== */
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* ======== CAMPOS ======== */
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.2s;
+}
+
+input:focus {
+    border-color: #007bff;
+}
+
+/* ======== BOTÕES ======== */
+button, .btn {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover, .btn:hover {
+    background: #0056b3;
+}
+
+/* ======== LINKS ======== */
+a {
+    display: block;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ======== DASHBOARD ======== */
+.dashboard {
+    width: 90%;
+    max-width: 900px;
+    background: white;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #f7f7f7;
+}
+
+.logout-btn {
+    display: inline-block;
+    background: #dc3545 !important;
+    margin-bottom: 15px;
+}
+
+.logout-btn:hover {
+    background: #b52a37 !important;
+}
