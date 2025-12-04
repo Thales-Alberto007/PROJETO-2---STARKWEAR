@@ -1,0 +1,85 @@
+/* ======== ESTILO GLOBAL ======== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+    background: #f2f3f7;
+    padding: 30px;
+}
+
+/* ======== TÍTULO ======== */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* ======== LINKS ======== */
+a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ======== BOTÃO PADRÃO ======== */
+.btn {
+    display: inline-block;
+    background: #4CAF50;
+    padding: 10px 16px;
+    color: white !important;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: #3d8d42;
+}
+
+/* ======== TABELA ======== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+table th {
+    background: #0066cc;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:hover {
+    background: #eef5ff;
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+
+/* ======== LINKS DE AÇÕES ======== */
+td a {
+    color: #0066cc;
+    font-weight: 500;
+}
+
+td a:hover {
+    text-decoration: underline;
+}

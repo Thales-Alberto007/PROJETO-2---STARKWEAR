@@ -1,0 +1,66 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+/* ===== FUNDO ===== */
+body {
+    background: #f2f2f2; /* fundo neutro claro */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+/* ===== CONTAINER ===== */
+.box {
+    background: #ffffff; /* painel branco para contraste */
+    width: 420px;
+    padding: 35px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    animation: slideIn 0.4s ease;
+}
+
+@keyframes slideIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ===== TÍTULO ===== */
+.box h2 {
+    color: #222;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+/* ===== BOTÕES ===== */
+.box a {
+    display: block;
+    margin: 12px 0;
+    padding: 12px;
+    background: #0066cc;; /* azul para gerenciar usuários */
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: 0.25s;
+}
+
+.box a:hover {
+    background: #1f5b9c;; /* azul mais escuro ao passar o mouse */
+}
+
+/* BOTÃO SAIR */
+.logout {
+    background: #d00000 !important;
+}
+
+.logout:hover {
+    background: #a50000 !important;
+}
